@@ -6,7 +6,6 @@ import os
 
 lt = os.get_terminal_size().columns
 
-
 arquivo = ('m.csv')
 
 df = pd.read_csv(arquivo, sep=';', encoding='latin1')
@@ -69,6 +68,7 @@ print((f"Modelo de Regressão Linear: y = {m:.4f} * x + {b:.4f}").center(lt))
 print("")
 print(("=" * lt))
 print("")
+
 
 
 
